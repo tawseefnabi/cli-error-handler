@@ -1,11 +1,11 @@
 {
   "name": "cli-error-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error handler for nodeJs",
   "main": "index.js",
-  "bin":{
-    "error":"index.js",
-    "err":"index.js"
+  "bin": {
+    "error": "index.js",
+    "err": "index.js"
   },
   "scripts": {
     "test": "node test.js",
@@ -29,7 +29,7 @@
     "prettier": "^2.3.2"
   },
   "publishConfig": {
-		"@tawseef:registry": "https://npm.pkg.github.com/",
-		"access": "public"
-	}
+    "@tawseef:registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  }
 }
