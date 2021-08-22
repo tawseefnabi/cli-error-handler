@@ -3,7 +3,63 @@
 
 <br>
 
+[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
 
+## Install
+
+```sh
+npm install cli-error-handler
+```
+
+<br>
+
+[![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](./../../)
+
+## Usage
+
+```js
+const handleError = require('cli-handle-error');
+
+// Let's say we get an error message from a custom command.
+const [err, res] = await somePromise();
+
+// Use the function. It will print the error and exit if there is an error.
+handleError(`Failed while building on step #1`, err);
+```
+
+<br />
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### handleError(heading, err, displayError?, exit?)
+
+#### ❯ heading
+
+Type: `string`<br>
+
+Heading of the error message.
+
+#### ❯ err
+
+Type: `error/object`<br>
+
+#### ❯ displayError
+
+Type: `boolean`<br>
+Default: `true` (optional)
+
+Display the error message or not.
+
+#### ❯ exit
+
+Type: `boolean`<br>
+Default: `true` (optional)
+
+Exit the CLI on error or not?
+
+<br>
 
 ## Connect
 
