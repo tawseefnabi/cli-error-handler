@@ -3,10 +3,9 @@
   "version": "1.0.1",
   "description": "Error handler for nodeJs",
   "main": "index.js",
-  "bin": {
-    "error": "index.js",
-    "err": "index.js"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node test.js",
     "format": "prettier --write \"./**/*.{js,json}\""
@@ -25,6 +24,10 @@
     "url": "https://github.com/tawseefnabi/cli-error-handler/issues"
   },
   "homepage": "https://github.com/tawseefnabi/cli-error-handler#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "log-symbols": "^3.0.0"
+  },
   "devDependencies": {
     "prettier": "^2.3.2"
   },
