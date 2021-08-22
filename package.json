@@ -1,6 +1,6 @@
 {
   "name": "cli-error-handler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Error handler for nodeJs",
   "main": "index.js",
   "files": [
